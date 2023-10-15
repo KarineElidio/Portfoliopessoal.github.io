@@ -1,0 +1,140 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.faixa {
+  display: flex;
+  flex-direction: column;
+  height: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(198, 160, 114);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.im1 {
+  width: 20%;
+  height: 22%;
+  border-radius: 20%;
+  margin-top: 40px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.l1 {
+  list-style: none;
+}
+
+.nomeka {
+  font-size: 35px;
+  font-style: italic;
+  font-style: oblique;
+  color: rgb(144, 111, 69);
+}
+
+a {
+  color: rgb(201, 195, 187);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-style: unset;
+  text-decoration: none;
+  font-weight: bold;
+}
+.b1 {
+  padding: 6px 3px;
+  align-items: center;
+  margin-right: 20px;
+  border-style: solid;
+}
+.b2 {
+  padding: 6px 3px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.b3 {
+  padding: 6px 3px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.b4 {
+  padding: 6px 3px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.b5 {
+  padding: 6px 3px;
+  margin-right: 20px;
+  border-style: solid;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 5px;
+  color: crimson;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.biografia {
+  color: white;
+}
+
+.texto {
+  color: white;
+  font-size: 18px;
+}
+
+.listaestudo,
+li {
+  list-style-type: none;
+  color: white;
+  font-size: 18px;
+}
+
+.corform {
+  color: white;
+}
+
+.mensagemform {
+  width: 400px;
+  height: 200px;
+  color: white;
+}
+
+.botao {
+  color: white;
+  margin-left: 350px;
+}
+
+.rodape {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 80px;
+  height: 30px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgb(198, 160, 114);
+}
